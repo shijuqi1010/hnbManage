@@ -1,0 +1,115 @@
+<html>
+
+<head>
+    <title>基站管理</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+     <link rel="stylesheet" type="text/css" href="css/style.css"> 
+    <script src="//d3js.org/d3.v3.min.js"></script>
+    <!--<script src="//d3js.org/topojson.v1.min.js"></script>-->
+    <!--<script src="js/topojson.js"></script>-->
+    <script src="https://d3js.org/topojson.v1.min.js"></script>
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="top_left">
+            <span class="logo"><img src="images/logo.png"></span>
+            <span class="name">亿迅大数据中心 全球基站管理</span>
+        </div>
+
+        <div class="top_right">
+            <iframe scrolling="no" frameborder="0" allowtransparency="true" src="http://i.tianqi.com/index.php?c=code&id=36&icon=5&num=5"></iframe>
+        </div>
+    </div>
+    <div class="content">
+        <div class="left">
+            <ul>
+                <li>
+                    <p>信号处理情况</p>
+                    <input type="text" value="236432次">
+                    
+                </li>
+                 <li>
+                    <div style="padding-left:10px; width: 100%;">
+                        <div>
+                            <p class="progressbar-title">特别重大事件</p>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 4%; background:#005394;">
+                                    <span>4%</span>
+                                </div>
+                            </div>
+
+                            <p class="progressbar-title">重大事件</p>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 42%; background:#d9534f;">
+                                    <span>48%</span>
+                                </div>
+                            </div>
+
+                            <p class="progressbar-title">较大事件</p>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 11%; background:#f0ad4e;">
+                                    <span>22%</span>
+                                </div>
+                            </div>
+                            <p class="progressbar-title">一般事件</p>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 26%; background:#00ad4e;">
+                                    <span>26%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    <br>
+                    <br>
+                    <span>已处理：78个</span>
+                    <hr>
+                    <span>处理中：16个</span>
+                    <hr>
+                    <span>未处理: 9个</span>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="right">
+            <ul>
+                <li>
+                    <div id="right1" style="width:350px;height:150px;margin-left:5px;">
+                    </div>
+                </li>
+                <li>
+                    <div id="right2" style="width:380px;height:300px;margin-left:5px;">
+
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="center">
+            
+        </div>
+
+    </div>
+    <!--底部区域-->
+    <div class="footer">
+        <ul>
+            <li><a href="http://www.eshore.cn/">关于我们</a></li>
+            <li><a href="#">联系我们</a></li>
+            <li><a href="http://www.eshore.cn/service/dashuju.html">全球基站管理</a></li>
+        </ul>
+    </div>
+
+    
+    <script src="js/earth_svg.js"></script>
+    <script src="js/echarts.min.js"></script>
+    <script src="js/echarts_dynamic.js"></script>
+    <script src="js/echarts_each.js"></script>
+    <script src="js/china_svg.js"></script> 
+
+</body>
+
+</html>
